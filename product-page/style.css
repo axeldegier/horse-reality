@@ -260,17 +260,17 @@ html, body {
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
 }
 
-.color-choose input[type="radio"]#red + label span {
-  background-color: #C91524;
+.color-choose input[type="radio"]#purple + label span {
+  background-color: #b00bb6;
 }
-.color-choose input[type="radio"]#blue + label span {
-  background-color: #314780;
+.color-choose input[type="radio"]#orange + label span {
+  background-color: #dd7009;
 }
-.color-choose input[type="radio"]#black + label span {
-  background-color: #323232;
+.color-choose input[type="radio"]#yellow + label span {
+  background-color: #e4e00f;
 }
 
-.color-choose input[type="radio"]#chubby + label span {
+.color-choose input[type="radio"]#green + label span {
   background-color: #66c915;
 }
 
