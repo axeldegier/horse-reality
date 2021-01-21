@@ -1,5 +1,6 @@
 /* Basic Styling */
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -47,6 +48,7 @@ html, body {
   border-bottom: 1px solid #E1E8EE;
   margin-bottom: 20px;
 }
+
 .product-description span {
   font-size: 12px;
   color: #358ED7;
@@ -54,12 +56,14 @@ html, body {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 .product-description h1 {
   font-weight: 300;
   font-size: 52px;
   color: #43484D;
   letter-spacing: -2px;
 }
+
 .product-description p {
   font-size: 16px;
   font-weight: 300;
@@ -90,7 +94,7 @@ html, body {
   display: none;
 }
 
-.color-choose input[type="radio"] + label span {
+.color-choose input[type="radio"]+label span {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -100,23 +104,25 @@ html, body {
   border-radius: 50%;
 }
 
-.color-choose input[type="radio"] + label span {
+.color-choose input[type="radio"]+label span {
   border: 2px solid #FFFFFF;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
 }
 
-.color-choose input[type="radio"]#red + label span {
+.color-choose input[type="radio"]#red+label span {
   background-color: #C91524;
 }
-.color-choose input[type="radio"]#blue + label span {
+
+.color-choose input[type="radio"]#blue+label span {
   background-color: #314780;
 }
-.color-choose input[type="radio"]#black + label span {
+
+.color-choose input[type="radio"]#black+label span {
   background-color: #323232;
 }
 
 
-.color-choose input[type="radio"]:checked + label span {
+.color-choose input[type="radio"]:checked+label span {
   background-image: url(images/check-icn.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -157,8 +163,8 @@ html, body {
 }
 
 
- /* Hier begint container 1 */
- .container1 {
+/* Hier begint container 1 */
+.container1 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 15px;
@@ -199,6 +205,7 @@ html, body {
   border-bottom: 1px solid #E1E8EE;
   margin-bottom: 20px;
 }
+
 .product-description span {
   font-size: 12px;
   color: #358ED7;
@@ -206,12 +213,14 @@ html, body {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 .product-description h1 {
   font-weight: 300;
   font-size: 52px;
   color: #43484D;
   letter-spacing: -2px;
 }
+
 .product-description p {
   font-size: 16px;
   font-weight: 300;
@@ -242,7 +251,7 @@ html, body {
   display: none;
 }
 
-.color-choose input[type="radio"] + label span {
+.color-choose input[type="radio"]+label span {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -252,44 +261,44 @@ html, body {
   border-radius: 50%;
 }
 
-.color-choose input[type="radio"] + label span {
+.color-choose input[type="radio"]+label span {
   border: 2px solid #FFFFFF;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
 }
 
-.color-choose input[type="radio"]#purple + label span {
+.color-choose input[type="radio"]#purple+label span {
   background-color: #b00bb6;
 }
 
-.color-choose input[type="radio"]#dpurple + label span {
+.color-choose input[type="radio"]#dpurple+label span {
   background-color: #3a053b;
 }
 
-.color-choose input[type="radio"]#orange + label span {
+.color-choose input[type="radio"]#orange+label span {
   background-color: #dd7009;
 }
 
-.color-choose input[type="radio"]#dorange + label span {
+.color-choose input[type="radio"]#dorange+label span {
   background-color: #be620c;
 }
 
-.color-choose input[type="radio"]#yellow + label span {
+.color-choose input[type="radio"]#yellow+label span {
   background-color: #bee611;
 }
 
-.color-choose input[type="radio"]#lblue + label span {
+.color-choose input[type="radio"]#lblue+label span {
   background-color: #18dbcb;
 }
 
-.color-choose input[type="radio"]#green + label span {
+.color-choose input[type="radio"]#green+label span {
   background-color: #66c915;
 }
 
-.color-choose input[type="radio"]#pink + label span {
+.color-choose input[type="radio"]#pink+label span {
   background-color: #e01179;
 }
 
-.color-choose input[type="radio"]:checked + label span {
+.color-choose input[type="radio"]:checked+label span {
   background-image: url(images/check-icn.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -329,8 +338,8 @@ html, body {
   }
 }
 
- /* Hier begint container 2 */
- .container2 {
+/* Hier begint container 2 */
+.container2 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 15px;
@@ -371,6 +380,7 @@ html, body {
   border-bottom: 1px solid #E1E8EE;
   margin-bottom: 20px;
 }
+
 .product-description span {
   font-size: 12px;
   color: #358ED7;
@@ -378,12 +388,14 @@ html, body {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 .product-description h1 {
   font-weight: 300;
   font-size: 52px;
   color: #43484D;
   letter-spacing: -2px;
 }
+
 .product-description p {
   font-size: 16px;
   font-weight: 300;
@@ -414,7 +426,7 @@ html, body {
   display: none;
 }
 
-.color-choose input[type="radio"] + label span {
+.color-choose input[type="radio"]+label span {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -424,28 +436,28 @@ html, body {
   border-radius: 50%;
 }
 
-.color-choose input[type="radio"] + label span {
+.color-choose input[type="radio"]+label span {
   border: 2px solid #FFFFFF;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
 }
 
-.color-choose input[type="radio"]#magenta + label span {
+.color-choose input[type="radio"]#magenta+label span {
   background-color: #8009cf;
 }
 
-.color-choose input[type="radio"]#winepink + label span {
+.color-choose input[type="radio"]#winepink+label span {
   background-color: #e21351;
 }
 
-.color-choose input[type="radio"]#cyan + label span {
+.color-choose input[type="radio"]#cyan+label span {
   background-color: #0b9797;
 }
 
-.color-choose input[type="radio"]#mint + label span {
+.color-choose input[type="radio"]#mint+label span {
   background-color: #0de49c;
 }
 
-.color-choose input[type="radio"]:checked + label span {
+.color-choose input[type="radio"]:checked+label span {
   background-image: url(images/check-icn.svg);
   background-repeat: no-repeat;
   background-position: center;
