@@ -479,7 +479,7 @@
 
   #lichaam {
       /* lichaam positionering is nog niet gefixed; css is al bepaald door .left-column2 img { */
-      margin-top: -19em;
+      margin-top: -17em;
       margin-right: -5em;
       /* height: 0px; */
   }
