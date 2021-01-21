@@ -51,7 +51,8 @@
       position: absolute;
   }
 
-  .main-content {
+  .main-content,
+  .avac {
       margin-top: 400px;
       margin-bottom: 0px;
       height: 500px;
@@ -85,4 +86,410 @@
   .footer ul li {
       display: inline-block;
       padding: 10px;
+  }
+
+  html {
+      overflow: scroll;
+      overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: #FF0000;
+  }
+
+  html,
+  body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 15px;
+      display: flex;
+  }
+
+  .left-column {
+      width: 65%;
+      position: relative;
+  }
+
+  .right-column {
+      width: 35%;
+      margin-top: 60px;
+  }
+
+  .left-column img {
+      width: 45%;
+      position: absolute;
+      left: 35%;
+      top: -25%;
+      opacity: 0;
+      transition: all 0.3s ease;
+  }
+
+  .left-column img.active {
+      opacity: 1;
+  }
+
+  .product-color {
+      margin-bottom: 30px;
+  }
+
+  .color-choose div {
+      display: inline-block;
+  }
+
+  .color-choose input[type="radio"] {
+      display: none;
+  }
+
+  .color-choose input[type="radio"]+label span {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: -1px 4px 0 0;
+      vertical-align: middle;
+      cursor: pointer;
+      border-radius: 50%;
+  }
+
+  .color-choose input[type="radio"]+label span {
+      border: 2px solid #FFFFFF;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  }
+
+  .color-choose input[type="radio"]#red+label span {
+      background-color: #C91524;
+  }
+
+  .color-choose input[type="radio"]#blue+label span {
+      background-color: #314780;
+  }
+
+  .color-choose input[type="radio"]#black+label span {
+      background-color: #323232;
+  }
+
+  .color-choose input[type="radio"]:checked+label span {
+      background-image: url(images/check-icn.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  @media (max-width: 940px) {
+      .container {
+          flex-direction: column;
+          margin-top: 60px;
+      }
+
+      .left-column,
+      .right-column {
+          width: 100%;
+      }
+
+      #hair {
+          margin-top: 25em !important;
+      }
+
+      #lichaam {
+          margin-top: -26em !important;
+      }
+
+      .footer {
+          margin-top: 30em !important;
+      }
+  }
+
+  @media (max-width: 535px) {
+      .left-column img {
+          width: 220px;
+          top: -85px;
+      }
+  }
+
+  .container1 {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 15px;
+      display: flex;
+  }
+
+  .left-column1 {
+      width: 65%;
+      position: relative;
+  }
+
+  .right-column1 {
+      width: 35%;
+      margin-top: 60px;
+      margin-top: 15em;
+  }
+
+  .left-column1 img {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      transition: all 0.3s ease;
+  }
+
+  .left-column1 img.active {
+      opacity: 1;
+  }
+
+  .product-color1 {
+      margin-bottom: 30px;
+  }
+
+  .color-choose div {
+      display: inline-block;
+  }
+
+  .color-choose input[type="radio"] {
+      display: none;
+  }
+
+  .color-choose input[type="radio"]+label span {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: -1px 4px 0 0;
+      vertical-align: middle;
+      cursor: pointer;
+      border-radius: 50%;
+  }
+
+  .color-choose input[type="radio"]+label span {
+      border: 2px solid #FFFFFF;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  }
+
+  .color-choose input[type="radio"]#purple+label span {
+      background-color: #b00bb6;
+  }
+
+  .color-choose input[type="radio"]#dpurple+label span {
+      background-color: #3a053b;
+  }
+
+  .color-choose input[type="radio"]#orange+label span {
+      background-color: #dd7009;
+  }
+
+  .color-choose input[type="radio"]#dorange+label span {
+      background-color: #be620c;
+  }
+
+  .color-choose input[type="radio"]#yellow+label span {
+      background-color: #bee611;
+  }
+
+  .color-choose input[type="radio"]#lblue+label span {
+      background-color: #18dbcb;
+  }
+
+  .color-choose input[type="radio"]#green+label span {
+      background-color: #66c915;
+  }
+
+  .color-choose input[type="radio"]#pink+label span {
+      background-color: #e01179;
+  }
+
+  .color-choose input[type="radio"]:checked+label span {
+      background-image: url(images/check-icn.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  @media (max-width: 940px) {
+      .container1 {
+          flex-direction: column;
+          margin-top: 60px;
+      }
+
+      .left-column1,
+      .right-column1 {
+          width: 100%;
+      }
+
+      .left-column1 img {
+          width: 100px;
+          right: 0;
+          top: -65px;
+          left: initial;
+      }
+  }
+
+  @media (max-width: 535px) {
+      .left-column1 img {
+          width: 220px;
+          top: -85px;
+      }
+  }
+
+  .container2 {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 15px;
+      display: flex;
+  }
+
+  .left-column2 {
+      width: 65%;
+      position: relative;
+  }
+
+  .right-column2 {
+      width: 35%;
+      margin-top: 60px;
+  }
+
+  .left-column2 img {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      transition: all 0.3s ease;
+  }
+
+  .left-column2 img.active {
+      opacity: 1;
+  }
+
+  .product-description {
+      border-bottom: 1px solid #E1E8EE;
+      margin-bottom: 20px;
+  }
+
+  .product-description span {
+      font-size: 12px;
+      color: #358ED7;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none;
+  }
+
+  .product-description h1 {
+      font-weight: 300;
+      font-size: 52px;
+      color: #43484D;
+      letter-spacing: -2px;
+  }
+
+  .product-description p {
+      font-size: 16px;
+      font-weight: 300;
+      color: #86939E;
+      line-height: 24px;
+  }
+
+  .product-color span,
+  .cable-config span {
+      font-size: 14px;
+      font-weight: 400;
+      color: #86939E;
+      margin-bottom: 20px;
+      display: inline-block;
+  }
+
+  .product-color2 {
+      margin-bottom: 30px;
+  }
+
+  .color-choose div {
+      display: inline-block;
+  }
+
+  .color-choose input[type="radio"] {
+      display: none;
+  }
+
+  .color-choose input[type="radio"]+label span {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: -1px 4px 0 0;
+      vertical-align: middle;
+      cursor: pointer;
+      border-radius: 50%;
+  }
+
+  .color-choose input[type="radio"]+label span {
+      border: 2px solid #FFFFFF;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+  }
+
+  .color-choose input[type="radio"]#magenta+label span {
+      background-color: #8009cf;
+  }
+
+  .color-choose input[type="radio"]#winepink+label span {
+      background-color: #e21351;
+  }
+
+  .color-choose input[type="radio"]#cyan+label span {
+      background-color: #0b9797;
+  }
+
+  .color-choose input[type="radio"]#mint+label span {
+      background-color: #0de49c;
+  }
+
+  .color-choose input[type="radio"]:checked+label span {
+      background-image: url(images/check-icn.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+
+  @media (max-width: 940px) {
+      .container2 {
+          flex-direction: column;
+          margin-top: 60px;
+      }
+
+      .left-column2,
+      .right-column2 {
+          width: 100%;
+      }
+
+  }
+
+  @media (max-width: 535px) {
+      .left-column2 img {
+          width: 220px;
+          top: -85px;
+      }
+  }
+
+  #hair {
+      margin-top: 19em;
+  }
+
+  #lichaam {
+      /* lichaam positionering is nog niet gefixed; css is al bepaald door .left-column2 img { */
+      margin-top: -19em;
+      margin-right: -5em;
+      /* height: 0px; */
+  }
+
+  @media (max-width: 991px) {
+      #paard {
+          display: none;
+      }
+  }
+
+  span {
+      color: black !important;
   }
