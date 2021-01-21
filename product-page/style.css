@@ -357,7 +357,6 @@ body {
   margin-top: 60px;
 }
 
-
 /* Left Column */
 .left-column2 img {
   width: 100%;
@@ -371,9 +370,6 @@ body {
 .left-column2 img.active {
   opacity: 1;
 }
-
-
-/* Right Column */
 
 /* Product Description */
 .product-description {
