@@ -496,3 +496,13 @@ body {
     top: -85px;
   }
 }
+
+#hair {
+  margin-top: 12em;
+}
+
+#lichaam {
+  margin-bottom: 15em;
+}
+
+/* lichaam positionering is nog niet gefixed; css is al bepaald door .left-column2 img { */
